@@ -1,7 +1,10 @@
 package org.example;
 
 public class Person {
-    public Person() {
-        System.out.println("new了一个Person");
+    String name;
+    int age;
+    public Person(String name, int age) {
+      this.name = name;
+      this.age = age;
     }
 }
