@@ -1,6 +1,6 @@
 package org.example;
 public class test{
-   int num=0;
+   static int num=0;
    test(){
        num++;
        System.out.println(num);
